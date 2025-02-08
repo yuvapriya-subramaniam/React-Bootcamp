@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episode1</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- <div id="root">
+        <h1>Hello World from HTML</h1>
+    </div> -->
+    <div id="test">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempore culpa consequatur aspernatur repudiandae.
+            Aperiam deleniti delectus totam quaerat perferendis consectetur ut! Minus corrupti sed impedit maiores id voluptatum
+            suscipit?</p>
+    </div>
+    <!--react dom works on the div(element) with id=root => ideally on the element used with createRoot in reactdom -->
+    <div id="root">
+        <!--anything inside root will be replaced by reactdom when render is called on root-->
+        <p>Sample paragraph.</p>
+    </div>
+    
+    <!-- <script>
+        const root = document.getElementById("root");
+        const heading = document.createElement("h1");
+        // heading.innerHTML="Hello World from Javascript!";
+        heading.textContent="Hello World from Javascript!";
+        root.appendChild(heading);
+    </script> -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./App.js"></script>
+</body>
+</html>
