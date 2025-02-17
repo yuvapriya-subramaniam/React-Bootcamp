@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(67, 71, 67);
-    color: white;
+body {
+    padding-top: 0;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #headerContainer{
@@ -14,8 +18,7 @@ body{
     height: 3em;
     margin: 2rem 2rem 0 2rem;
     font-size: large;
-    /* background-color: rgb(67, 71, 67); */
-    box-shadow: 4 5 rgb(96, 98, 96);
+    box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.3);
     border-radius: 1.5em;
 }
 
