@@ -16,7 +16,7 @@
   "main": "App.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "parcel ./src/index.html"
   },
   "dependencies": {
     "parcel": "^2.13.3",
