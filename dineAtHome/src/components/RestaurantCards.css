@@ -1,0 +1,32 @@
+.restaurantImg{
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
+    border-radius: 5%;
+    flex:1;
+    display: block;
+}
+
+.restaurants{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2%;
+}
+
+.restaurantCard{
+    border-radius: 2%;
+    background-color: rgb(251, 244, 231);
+    padding: 1%;
+    flex: 1;
+    flex-shrink: 1;
+    display:flex;
+    gap:2%;
+    min-width: 20em;
+    color: #3e4152;
+}
+
+.restaurantItems{
+    align-self: center;
+}
