@@ -17,14 +17,14 @@
 
 .restaurantCard{
     border-radius: 2%;
-    background-color: rgb(251, 244, 231);
+    background-color: var(--bg-color-components);
     padding: 1%;
     flex: 1;
-    flex-shrink: 1;
     display:flex;
     gap:2%;
     min-width: 20em;
-    color: #3e4152;
+    max-width: 20em;
+    color: var(--font-color);
 }
 
 .restaurantItems{

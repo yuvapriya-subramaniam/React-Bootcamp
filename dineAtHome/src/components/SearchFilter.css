@@ -1,0 +1,15 @@
+.searchContainer{
+    padding: 0 2em;
+}
+
+
+.filterBtn{
+    padding: 0.5em;
+    border-radius: 8;
+    background-color: var(--bg-color-components);
+    font-family: var(--font-family);
+    border-color: white;
+    cursor: pointer;
+    font-size: medium;
+    color: var(--font-color);
+}

@@ -2,11 +2,11 @@ import React from "react";
 import "./RestaurantCards.css";
 
 const RestaurantCards = ({ restaurants }) => {
-  const restaurantsData = restaurants?.cards;
+  
   return (
     <div id="restaurantContainer" className="restaurants">
-      {restaurantsData &&
-        restaurantsData.map((restaurant) => {
+      {restaurants &&
+        restaurants.map((restaurant) => {
           let data = restaurant.card?.card?.info;
           let imgSrc = `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/${data.cloudinaryImageId}`;
           return (

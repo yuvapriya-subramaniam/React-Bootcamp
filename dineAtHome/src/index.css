@@ -1,6 +1,8 @@
 :root{
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --header-bg-img: url('/src/images/headerImg.png');
+    --bg-color-components: #fbf4e7;
+    --font-color: #3e4152;
 }
 
 *{
